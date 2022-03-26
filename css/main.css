@@ -25,55 +25,84 @@ body {
     position: relative;
 }
 .heading {
+    font-size: 27px;
     text-align: center;
     text-transform: uppercase;
-    color: red;
+    color: #f52c09d2;
     margin: 20px 0;
 }
 .text {
     text-align: center;
     line-height: 1.5;
 }
-
-img {
-    width: 100%;
-    height: 190px;
-    filter: invert(100%);
-    border-radius: 7px;
-}
 .green {
-    background-color: aqua;
+    width: 100%;
+    background-color: #3dbcc5d2;
+    border-radius: 3px;
 }
-.blue { background-color: blue;
+svg.apple {
+    height: 190px;
+    width: 70%;
+    background:  url(../img/cc-apple-pay-brands.svg) center no-repeat;
+    filter: invert(1);
+}
+.blue {
+    width: 100%;
+    background-color: #1c5db3f1;
+    border-radius: 3px;
+}
+svg.university {
+    height: 190px;
+    width: 70%;
+    background: url(../img/university-solid.svg) center no-repeat;
+    filter: invert(1);
 }
 .red {
-    background-color: red;
+    width: 100%;
+    background-color: #f52c09d2;
+    border-radius: 3px;
+}
+svg.users {
+    height: 190px;
+    width: 70%;
+    background:  url(../img/users-solid.svg) center no-repeat;
+    filter: invert(1);
 }
 .gray {
-    background-color: gray;
+    width: 100%;
+    background-color: #7e7b7bd2;
+    border-radius: 3px;
 }
+svg.random {
+    width: 70%;
+    height: 190px;
+    background:  url(../img/random-solid.svg) center no-repeat;
+    filter: invert(1);
+}
+
 span {
-    font-size: 23px;
+    font-size: 15px;
+    font-weight: bold;
     border-radius: 50%;
-    padding: 0 8px;
+    padding: 6px 12px;
     position: absolute;
-    left: 22px;
+    left: 18px;
     top: -12px;
     background-color: white;
 }
 span.one {
-    border: 2px solid red;
-    color: red;
+    border: 3px solid #3dbcc5d2;
+    color: #3dbcc5d2;
 }
 span.two {
-    border: 2px solid yellow;
-    color:yellow
+    border: 3px solid #1c5db3f1;
+    color:#1c5db3f1;
 }
 span.three {
-    border: 2px solid aqua;
-    color: aqua;
+    border: 3px solid #f52c09d2;
+    color: #f52c09d2;
 }
 span.four {
-    border: 2px solid gray;
+    border: 3px solid gray;
     color: gray;
 }
